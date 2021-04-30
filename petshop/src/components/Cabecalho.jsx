@@ -7,10 +7,12 @@ const Cabecalho = () => {
 
   return (
     <header className="cabecalho container">
+
         <div className="menu-hamburguer">
             <span className="menu-hamburguer__icone">
             </span>
         </div>
+
         <div className="cabecalho-container">
             <a href="/" className="flex flex--centro">
                 <img className="cabecalho__logo" src={imagem} alt="Logo"/>
@@ -26,6 +28,7 @@ const Cabecalho = () => {
                 <li><Link to="/sobre" className="menu-item">Sobre</Link></li>
             </ul>
         </nav>
+        
         <div className="menu-cabecalho-background"></div>
     </header>
   )
