@@ -1,7 +1,6 @@
 import React from 'react'
 import { useParams, Route, useRouteMatch } from 'react-router-dom'
 import '../assets/css/blog.css'
-import ListaCategorias from '../components/ListaCategorias'
 import ListaPost from '../components/ListaPost'
 
 const SubCategoria = () => {
